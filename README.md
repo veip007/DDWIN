@@ -1,130 +1,130 @@
-# ÃÈ¿§´óÀĞµÄÒ»¼üDD Win½Å±¾
+# èŒå’–å¤§ä½¬çš„ä¸€é”®DD Winè„šæœ¬
 
-ÎŞÏŞÖÆÈ«×Ô¶¯dd°²×°Windows
+æ— é™åˆ¶å…¨è‡ªåŠ¨ddå®‰è£…Windows
 
-Í»ÆÆÃ»ÓĞVNC,Ã»ÓĞ¾ÈÔ®Ä£Ê½,ÄÚ´æ±Èdd°üĞ¡µÄÏŞÖÆ.
+çªç ´æ²¡æœ‰VNC,æ²¡æœ‰æ•‘æ´æ¨¡å¼,å†…å­˜æ¯”ddåŒ…å°çš„é™åˆ¶.
 
-Ê¹ÓÃDebian Live CDÖĞµÄbusybox×öÖĞ¼äÃ½½é,¾­¹ı¸´ÔÓµÄ´¦Àí,
+ä½¿ç”¨Debian Live CDä¸­çš„busyboxåšä¸­é—´åª’ä»‹,ç»è¿‡å¤æ‚çš„å¤„ç†,
 
-Ê¹±¾»úµÄÍøÂç²ÎÊı´«½øWindows²Ù×÷ÏµÍ³ÖĞ,
+ä½¿æœ¬æœºçš„ç½‘ç»œå‚æ•°ä¼ è¿›Windowsæ“ä½œç³»ç»Ÿä¸­,
 
-¼´Ê¹Ã»ÓĞDHCPÄÜ¹»ÈÃWindows»ñÈ¡ÍøÂç²ÎÊı,
+å³ä½¿æ²¡æœ‰DHCPèƒ½å¤Ÿè®©Windowsè·å–ç½‘ç»œå‚æ•°,
 
-Ò²ÄÜÈÃWindows²Ù×÷ÏµÍ³ÔÚ¿ª»úµÄµÚÒ»Ê±¼äÄÜ¹»Á¬Í¨ÍøÂç.
+ä¹Ÿèƒ½è®©Windowsæ“ä½œç³»ç»Ÿåœ¨å¼€æœºçš„ç¬¬ä¸€æ—¶é—´èƒ½å¤Ÿè¿é€šç½‘ç»œ.
 
 
-## 1.ĞèÇó:
+## 1.éœ€æ±‚:
 ```
 #Debian/Ubuntu
-## Ò»°ã×Ô´ø
+## ä¸€èˆ¬è‡ªå¸¦
 #RedHat/CentOS
 yum install glibc-common
 ```
 
-## 2.ÏŞÖÆ:
-ĞèÒª¶¨ÖÆdd°ü.
+## 2.é™åˆ¶:
+éœ€è¦å®šåˆ¶ddåŒ….
 
-¿ªÆôÄÚÖÃAdministratorÕË»§µÇÂ¼(ÅäÖÃ×Ô¶¯µÇÂ½)..
+å¼€å¯å†…ç½®Administratorè´¦æˆ·ç™»å½•(é…ç½®è‡ªåŠ¨ç™»é™†)..
 
-¿ªÆôÔ¶³Ì×ÀÃæ(Ä¬ÈÏ3389¶Ë¿Ú).
+å¼€å¯è¿œç¨‹æ¡Œé¢(é»˜è®¤3389ç«¯å£).
 
-½ûÓÃUAC..
+ç¦ç”¨UAC..
 
-ÊÊµ±µÄµ÷Õû·À»ğÇ½.(¿ÉÑ¡)
+é€‚å½“çš„è°ƒæ•´é˜²ç«å¢™.(å¯é€‰)
 
-ĞèÒªÏà¹ØµÄĞéÄâ»¯Çı¶¯.
+éœ€è¦ç›¸å…³çš„è™šæ‹ŸåŒ–é©±åŠ¨.
 
-VirtIOÇı¶¯(±¸·İÏÂÔØ) XENÇı¶¯(±¸·İÏÂÔØ)
+VirtIOé©±åŠ¨(å¤‡ä»½ä¸‹è½½) XENé©±åŠ¨(å¤‡ä»½ä¸‹è½½)
 
-dd°ü½âÑ¹ºóµÄÌå»ı²»ÄÜ³¬¹ı»úÆ÷µÚÒ»¿éÓ²ÅÌµÄ×î´óÈİ»ı.
+ddåŒ…è§£å‹åçš„ä½“ç§¯ä¸èƒ½è¶…è¿‡æœºå™¨ç¬¬ä¸€å—ç¡¬ç›˜çš„æœ€å¤§å®¹ç§¯.
 
 
-## 3.Ê¹ÓÃ·½·¨:
+## 3.ä½¿ç”¨æ–¹æ³•:
 
 ``` 
-wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && bash InstallNET.sh -dd '[Windows dd°üÖ±Á¬µØÖ·]'
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd '[Windows ddåŒ…ç›´è¿åœ°å€]'
 ``` 
 
-## ÃÈ¿§Ìá¹©µÄdemo°ü(1.19G;ÒÑ¼¤»î):
+## èŒå’–æä¾›çš„demoåŒ…(1.19G;å·²æ¿€æ´»):
 ``` 
 https://moeclub.org/get-win7embx86-auto
-# ¹È¸èÎÄ¼şID: 1srhylymTjYS-Ky8uLw4R6LCWfAo1F3s7
-# ¸Ã°üÖ»Ìí¼ÓÁËVirtIOÇı¶¯,ÀíÂÛÉÏ½öÄÜÔÚKVM,Hyper-V¹¹¼ÜÏÂÕı³£ÔËĞĞ.
-# ÈçĞèÔÚÆäËûĞéÄâ»¯¹¹¼ÜÏÂÔËĞĞ,Çë×ÔĞĞÌí¼ÓÏà¹ØĞéÄâ»¯Çı¶¯.
+# è°·æ­Œæ–‡ä»¶ID: 1srhylymTjYS-Ky8uLw4R6LCWfAo1F3s7
+# è¯¥åŒ…åªæ·»åŠ äº†VirtIOé©±åŠ¨,ç†è®ºä¸Šä»…èƒ½åœ¨KVM,Hyper-Væ„æ¶ä¸‹æ­£å¸¸è¿è¡Œ.
+# å¦‚éœ€åœ¨å…¶ä»–è™šæ‹ŸåŒ–æ„æ¶ä¸‹è¿è¡Œ,è¯·è‡ªè¡Œæ·»åŠ ç›¸å…³è™šæ‹ŸåŒ–é©±åŠ¨.
 ``` 
-Ê¹ÓÃµÄÊÇWindows Embedded Standard 7(Thin PC)×÷Îªµ×°ü,¹Ù·½¾«¼ò.
+ä½¿ç”¨çš„æ˜¯Windows Embedded Standard 7(Thin PC)ä½œä¸ºåº•åŒ…,å®˜æ–¹ç²¾ç®€.
 
-ÈçĞèÆäËû×é¼ş,ÀıÈç:ÍêÕûµÄ×ÀÃæÌØÕ÷,WindowsÕÕÆ¬²é¿´Æ÷µÈ.
+å¦‚éœ€å…¶ä»–ç»„ä»¶,ä¾‹å¦‚:å®Œæ•´çš„æ¡Œé¢ç‰¹å¾,Windowsç…§ç‰‡æŸ¥çœ‹å™¨ç­‰.
 
-Çë²Î¿¼: Thin PC (Win7 Embedded) °²×°×é¼ş
+è¯·å‚è€ƒ: Thin PC (Win7 Embedded) å®‰è£…ç»„ä»¶
 
 
-## 4.Ê¹ÓÃÊ¾Àı:
+## 4.ä½¿ç”¨ç¤ºä¾‹:
 ```
-#ÔÚÄãµÄ»úÆ÷ÉÏÈ«ĞÂ°²×°,Èç¹ûÄãÓĞVNC,¿ÉÒÔ¿´µ½È«²¿¹ı³Ì.
-#ÔÚddµÄ¹ı³ÌÖĞ,»á¿¨ÔÚ·ÖÇøµÄ½çÃæÉÏ,²»»á×ß½ø¶ÈÌõ.Íê³Éºó½«»á×Ô¶¯ÖØÆô.
+#åœ¨ä½ çš„æœºå™¨ä¸Šå…¨æ–°å®‰è£…,å¦‚æœä½ æœ‰VNC,å¯ä»¥çœ‹åˆ°å…¨éƒ¨è¿‡ç¨‹.
+#åœ¨ddçš„è¿‡ç¨‹ä¸­,ä¼šå¡åœ¨åˆ†åŒºçš„ç•Œé¢ä¸Š,ä¸ä¼šèµ°è¿›åº¦æ¡.å®Œæˆåå°†ä¼šè‡ªåŠ¨é‡å¯.
  
-wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && bash InstallNET.sh -dd 'https://moeclub.org/get-win7embx86-auto'
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://moeclub.org/get-win7embx86-auto'
 ```
 
-## 5.Ê¹ÓÃÊ¾Àı(Ö¸¶¨ÍøÂç²ÎÊı):
+## 5.ä½¿ç”¨ç¤ºä¾‹(æŒ‡å®šç½‘ç»œå‚æ•°):
 ```
-# ½«X.X.X.XÌæ»»Îª×Ô¼ºµÄÍøÂç²ÎÊı.
-# --ip-addr :IP Address/IPµØÖ·
-# --ip-mask :Netmask   /×ÓÍøÑÚÂë
-# --ip-gate :Gateway   /Íø¹Ø
-# wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && bash InstallNET.sh --ip-addr X.X.X.X --ip-mask X.X.X.X --ip-gate X.X.X.X -dd 'https://moeclub.org/get-win7embx86-auto'
+# å°†X.X.X.Xæ›¿æ¢ä¸ºè‡ªå·±çš„ç½‘ç»œå‚æ•°.
+# --ip-addr :IP Address/IPåœ°å€
+# --ip-mask :Netmask   /å­ç½‘æ©ç 
+# --ip-gate :Gateway   /ç½‘å…³
+# wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh --ip-addr X.X.X.X --ip-mask X.X.X.X --ip-gate X.X.X.X -dd 'https://moeclub.org/get-win7embx86-auto'
 ```
 
 
-## 6.×¢ÒâÊÂÏî:
+## 6.æ³¨æ„äº‹é¡¹:
 
-1)Ô¶³ÌµÇÂ½ÕËºÅÎª: ```Administrator```
+1)è¿œç¨‹ç™»é™†è´¦å·ä¸º: ```Administrator```
 
-2)Ô¶³ÌµÇÂ½ÃÜÂëÎª: ```Vicer```
+2)è¿œç¨‹ç™»é™†å¯†ç ä¸º: ```Vicer```
 
-3)½öĞŞ¸ÄÁËÖ÷»úÃû,¿É·ÅĞÄÊ¹ÓÃ.(½¨Òé×Ô¼ºÖÆ×÷.)
+3)ä»…ä¿®æ”¹äº†ä¸»æœºå,å¯æ”¾å¿ƒä½¿ç”¨.(å»ºè®®è‡ªå·±åˆ¶ä½œ.)
 
-4)Ê¹ÓÃµÄ¹«ÓÃÍøÅÌ,ÈçĞè³¤ÆÚ/´óÁ¿Ê¹ÓÃ´Ë°üÇë×ÔĞĞ±¸·İ.
+4)ä½¿ç”¨çš„å…¬ç”¨ç½‘ç›˜,å¦‚éœ€é•¿æœŸ/å¤§é‡ä½¿ç”¨æ­¤åŒ…è¯·è‡ªè¡Œå¤‡ä»½.
 
-5)Èç¹ûÒò´ËÎ¥·´ÁËTOS,ÃÈ¿§²»¸ºÈÎºÎÔğÈÎ.
+5)å¦‚æœå› æ­¤è¿åäº†TOS,èŒå’–ä¸è´Ÿä»»ä½•è´£ä»».
 
 
-## 7.¿ÉÄÜÓÃµ½µÄÃüÁî:
+## 7.å¯èƒ½ç”¨åˆ°çš„å‘½ä»¤:
 ```
-::ÒÔ¹ÜÀíÔ±Éí·İÔËĞĞCMD::
+::ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡ŒCMD::
  
-::¸ü¸ÄÓÃ»§µÄÃÜÂë
-net user [ÓÃ»§Ãû] [ÃÜÂë]
-::¼¤»î Administrator ÕË»§
+::æ›´æ”¹ç”¨æˆ·çš„å¯†ç 
+net user [ç”¨æˆ·å] [å¯†ç ]
+::æ¿€æ´» Administrator è´¦æˆ·
 net user Administrator /active:yes
-::ÉèÖÃ Administrator ÕË»§ÃÜÂë
-net user Administrator [ĞÂÃÜÂë]
-::Ìí¼ÓÓÃ»§
-net user [ÓÃ»§Ãû] [ÃÜÂë] /add
-::½«ÓÃ»§Ìí¼ÓÖÁ Administrator ×é
-net localgroup Administrators [ÓÃ»§Ãû] /add
-::É¾³ıÓÃ»§
-net user [ÓÃ»§Ãû] /del
+::è®¾ç½® Administrator è´¦æˆ·å¯†ç 
+net user Administrator [æ–°å¯†ç ]
+::æ·»åŠ ç”¨æˆ·
+net user [ç”¨æˆ·å] [å¯†ç ] /add
+::å°†ç”¨æˆ·æ·»åŠ è‡³ Administrator ç»„
+net localgroup Administrators [ç”¨æˆ·å] /add
+::åˆ é™¤ç”¨æˆ·
+net user [ç”¨æˆ·å] /del
 ```
 
-## 8.ÎÂÜ°ÌáÊ¾:
-ÔÚ´ÅÅÌ¹ÜÀíÖĞ,µã»÷¡¯C¡®ÅÌ,ÓÒ¼üÑ¡Ôñ¡¯À©Õ¹¾í¡®,¿ÉÒÔÖ±½Ó¡¯Ôö¼Ó¡®CÅÌµÄ¿Õ¼ä.
+## 8.æ¸©é¦¨æç¤º:
+åœ¨ç£ç›˜ç®¡ç†ä¸­,ç‚¹å‡»â€™Câ€˜ç›˜,å³é”®é€‰æ‹©â€™æ‰©å±•å·â€˜,å¯ä»¥ç›´æ¥â€™å¢åŠ â€˜Cç›˜çš„ç©ºé—´.
 
-¼¤»îÏà¹ØÇë²Î¿¼: https://moeclub.org/kms
+æ¿€æ´»ç›¸å…³è¯·å‚è€ƒ: https://moeclub.org/kms
 
-## 9.ÃÈ¿§Ìá¹©µÄ¿ÉÓÃ°ü:
+## 9.èŒå’–æä¾›çš„å¯ç”¨åŒ…:
 
-Óë±¾µØÓÃiso¾µÏñ°²×°¹ı³ÌÒ»Ñù,Èç¹ûÄãÓĞVNC,¿É¿´µ½È«²¿¹ı³Ì.
+ä¸æœ¬åœ°ç”¨isoé•œåƒå®‰è£…è¿‡ç¨‹ä¸€æ ·,å¦‚æœä½ æœ‰VNC,å¯çœ‹åˆ°å…¨éƒ¨è¿‡ç¨‹.
 
-ÒòÎªÈ«ĞÂ°²×°!!! È«ĞÂ°²×°!!! È«ĞÂ°²×°!!! ËùÒÔ»áµÈ´ı¾ÃÒ»µã.
+å› ä¸ºå…¨æ–°å®‰è£…!!! å…¨æ–°å®‰è£…!!! å…¨æ–°å®‰è£…!!! æ‰€ä»¥ä¼šç­‰å¾…ä¹…ä¸€ç‚¹.
 
-Windows Embedded 8.1 Industry Pro x64 (2.87G;KVM;XEN;Hyper-V;Î´¼¤»î)
+Windows Embedded 8.1 Industry Pro x64 (2.87G;KVM;XEN;Hyper-V;æœªæ¿€æ´»)
 ```
-Ö±Á´:
+ç›´é“¾:
 https://moeclub.org/get-win8embx64-auto
-¹È¸èÍøÅÌÎÄ¼şID:
+è°·æ­Œç½‘ç›˜æ–‡ä»¶ID:
 1cqVl2wSGx92UTdhOxU9pW3wJgmvZMT_J
 ```
 
-×ªÔØÓÚÃÈ¿§https://moeclub.org/2017/11/19/483/
+è½¬è½½äºèŒå’–https://moeclub.org/2017/11/19/483/
