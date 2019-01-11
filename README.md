@@ -69,7 +69,7 @@ wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com
 
 备份地址脚本
 ```
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://doc-0o-50-docs.googleusercontent.com/docs/securesc/s2th7q2iqmegkshrfqg8qho9m1fmsb52/begmqie6nii4u7nav3ej2i6evddg64f4/1543910400000/17128039988164006870/17128039988164006870/1FXf5FOU0J-V4TVrcAmLNDI--bhl0pLiL?e=download&h=09648022371258219330&nonce=e6vtsc3j4fhu4&user=17128039988164006870&hash=l4jnsd00uklmjm9qbdkeuv33i61scp7s'
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://drive.google.com/open?id=1FXf5FOU0J-V4TVrcAmLNDI--bhl0pLiL'
 ```
 
 
@@ -134,6 +134,6 @@ https://moeclub.org/get-win8embx64-auto
 ```
 ## 备份萌咖的Win7 DD包
 ```
-https://doc-0o-50-docs.googleusercontent.com/docs/securesc/s2th7q2iqmegkshrfqg8qho9m1fmsb52/begmqie6nii4u7nav3ej2i6evddg64f4/1543910400000/17128039988164006870/17128039988164006870/1FXf5FOU0J-V4TVrcAmLNDI--bhl0pLiL?e=download&h=09648022371258219330&nonce=e6vtsc3j4fhu4&user=17128039988164006870&hash=l4jnsd00uklmjm9qbdkeuv33i61scp7s
+https://drive.google.com/open?id=1FXf5FOU0J-V4TVrcAmLNDI--bhl0pLiL
 ```
 转载于萌咖https://moeclub.org/2017/11/19/483/
