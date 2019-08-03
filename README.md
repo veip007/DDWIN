@@ -139,7 +139,6 @@ https://doc-04-9g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffks
 ## GD直连获取方法
 1.下载脚本
 ```
-bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
 ```
 2.使用方法
