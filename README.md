@@ -137,11 +137,12 @@ https://moeclub.org/get-win8embx64-auto
 https://doc-04-9g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/33n9646c66r9nop901amjveamlss3lvc/1564804800000/11612282053804384699/*/1d0eqYKQ88wXssD845WnY9kCWbdFWvtkZ?e=download
 ```
 ## GD直连获取方法
+1.下载脚本
 ```
 bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
 ```
-### 使用方法
+2.使用方法
 ```
 #Work with share link/使用分享链接方式
 gdlink 'https://drive.google.com/open?id=0B8SvBXZ3I5QMcUduTMJEanRkMzQ'
