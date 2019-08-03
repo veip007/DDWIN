@@ -69,7 +69,7 @@ wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com
 
 备份地址脚本
 ```
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://doc-0k-08-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/fdnl53aj475j7pjp7e70dbvp445i5b2e/1548338400000/17128039988164006870/*/1FXf5FOU0J-V4TVrcAmLNDI--bhl0pLiL?e=download'
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/DDWIN/master/InstallNET.sh' && bash InstallNET.sh -dd 'https://veip-my.sharepoint.com/personal/admin_veip_onmicrosoft_com/Documents/DD/moeclub/win7emb_x86.tar.gz'
 ```
 
 
